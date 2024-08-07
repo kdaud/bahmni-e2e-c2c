@@ -1,6 +1,6 @@
 {
   "name": "ozone-e2e-c2c",
-  "version": "next",
+  "version": "1.7.0",
   "license": "MPL-2.0",
   "description": "These are end-to-end automated tests covering Bahmni distro C2C workflows",
   "main": "index.js",

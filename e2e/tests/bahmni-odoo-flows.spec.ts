@@ -65,6 +65,6 @@ test('Ordering a drug for a Bahmni patient creates the corresponding Odoo custom
 });
 */
 test.afterEach(async ({ page }) => {
-  await bahmni.voidPatient();
+  //await bahmni.voidPatient();
   await page.close();
 });
