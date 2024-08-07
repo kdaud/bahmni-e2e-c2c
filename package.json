@@ -1,0 +1,20 @@
+{
+  "name": "ozone-e2e-c2c",
+  "version": "next",
+  "license": "MPL-2.0",
+  "description": "These are end-to-end automated tests covering Bahmni distro C2C workflows",
+  "main": "index.js",
+  "scripts": {
+    "e2e-tests-c2c": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.6",
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "dotenv": "^16.3.1",
+    "typescript": "^4.5.5"
+  }
+}
